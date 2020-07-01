@@ -1,0 +1,25 @@
+#root,
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.app {
+  margin: 0 auto;
+  width: 25%;
+  font-size: 62.5%;
+  background: #E5E5E5;
+  height: 100%;
+
+  .brands {
+    margin-top: 1rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .app {
+    width: 100%;
+    margin: 0;
+  }
+}

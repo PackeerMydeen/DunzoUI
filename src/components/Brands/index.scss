@@ -1,0 +1,16 @@
+.brands-wrapper {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.06);
+    min-height: 5rem;
+
+    .brands {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+
+        .brand {
+            flex: 0 0 auto;
+            margin-right: 1rem;
+        }
+    }
+}
